@@ -1,0 +1,146 @@
+[
+  {
+    "id":1,
+    "image":"https://www.joyebike.com/product/hurricane/images/banner-img.png",
+    "name":"CBR",
+    "Seats":2,
+    "fuel":"Petrol",
+    "Brake":"Disc",
+    "Gear":6,
+    "mileage":40,
+    "Hour":"1500 Rs"
+
+  },
+  {
+    "id":2,
+    "image":"https://www.joyebike.com/product/hurricane/images/banner-img.png",
+    "name":"Pulser",
+    "Seats":3,
+    "fuel":"desigl",
+    "Brake":"Disc",
+    "Gear":6,
+    "mileage":50,
+    "Hour":"1500 Rs"
+
+  },
+  {
+    "id":3,
+    "image":"https://www.joyebike.com/product/hurricane/images/banner-img.png",
+    "name":"CBR",
+    "Seats":2,
+    "fuel":"Petrol",
+    "Brake":"Disc",
+    "Gear":6,
+    "mileage":40,
+    "Hour":"1500 Rs"
+
+  },
+  {
+    "id":4,
+    "image":"https://www.joyebike.com/product/hurricane/images/banner-img.png",
+    "name":"CBR",
+    "Seats":2,
+    "fuel":"Petrol",
+    "Brake":"Disc",
+    "Gear":6,
+    "mileage":40,
+    "Hour":"1500 Rs"
+
+  },
+  {
+    "id":5,
+    "image":"https://www.joyebike.com/product/hurricane/images/banner-img.png",
+    "name":"CBR",
+    "Seats":2,
+    "fuel":"Petrol",
+    "Brake":"Disc",
+    "Gear":6,
+    "mileage":40,
+    "Hour":"1500 Rs"
+
+  },
+  {
+    "id":6,
+    "image":"https://www.joyebike.com/product/hurricane/images/banner-img.png",
+    "name":"CBR",
+    "Seats":2,
+    "fuel":"Petrol",
+    "Brake":"Disc",
+    "Gear":6,
+    "mileage":40,
+    "Hour":"1500 Rs"
+
+  },
+  {
+    "id":7,
+    "image":"https://www.joyebike.com/product/hurricane/images/banner-img.png",
+    "name":"CBR",
+    "Seats":2,
+    "fuel":"Petrol",
+    "Brake":"Disc",
+    "Gear":6,
+    "mileage":40,
+    "Hour":"1500 Rs"
+
+  },
+  {
+    "id":8,
+    "image":"https://www.joyebike.com/product/hurricane/images/banner-img.png",
+    "name":"CBR",
+    "Seats":2,
+    "fuel":"Petrol",
+    "Brake":"Disc",
+    "Gear":6,
+    "mileage":40,
+    "Hour":"1500 Rs"
+
+  },
+  {
+    "id":9,
+    "image":"https://www.joyebike.com/product/hurricane/images/banner-img.png",
+    "name":"CBR",
+    "Seats":2,
+    "fuel":"Petrol",
+    "Brake":"Disc",
+    "Gear":6,
+    "mileage":40,
+    "Hour":"1500 Rs"
+
+  },
+  {
+    "id":10,
+    "image":"https://www.joyebike.com/product/hurricane/images/banner-img.png",
+    "name":"CBR",
+    "Seats":2,
+    "fuel":"Petrol",
+    "Brake":"Disc",
+    "Gear":6,
+    "mileage":40,
+    "Hour":"1500 Rs"
+
+  },
+  {
+    "id":11,
+    "image":"https://www.joyebike.com/product/hurricane/images/banner-img.png",
+    "name":"CBR",
+    "Seats":2,
+    "fuel":"Petrol",
+    "Brake":"Disc",
+    "Gear":6,
+    "mileage":40,
+    "Hour":"1500 Rs"
+
+  },
+  {
+    "id":12,
+    "image":"https://www.joyebike.com/product/hurricane/images/banner-img.png",
+    "name":"CBR",
+    "Seats":2,
+    "fuel":"Petrol",
+    "Brake":"Disc",
+    "Gear":6,
+    "mileage":40,
+    "Hour":"1500 Rs"
+
+  }
+]

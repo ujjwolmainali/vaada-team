@@ -1,0 +1,389 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  font-family: cursive;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.logo img {
+  width: 180px;
+  height: 80px;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+
+}
+
+.container {
+  height: 100vh;
+
+}
+
+.menu {
+  display: flex;
+  color: #333;
+  margin: 20px;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.menu h3 a {
+  text-decoration: none;
+  color: #333;
+}
+
+.flex i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 7px;
+}
+#dropdown {
+  position: absolute;
+  top: 70px;
+  left: 550px;
+
+
+}
+
+#dropdown li {
+  display: none;
+  text-decoration: none;
+  list-style: none;
+  border: 2px solid #333;
+  padding: 1rem;
+  width: 180px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+
+
+}
+
+#dropdown.active li {
+  display: block;
+
+}
+
+#dropdown1 {
+  position: absolute;
+  top: 70px;
+  left: 800px;
+  transition: all 0.4s linear;
+
+}
+
+#dropdown1 li {
+  text-decoration: none;
+  display: none;
+  list-style: none;
+  border: 2px solid #333;
+  padding: 1rem;
+  width: 150px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+
+}
+
+#dropdown1.active li {
+  display: block;
+}
+
+#dropdown1 li:hover {
+  background-color: #333;
+}
+
+#dropdown li:hover {
+  background-color: #333;
+}
+
+i {
+  cursor: pointer;
+}
+.img img{
+  width: 100vw;
+  height:300px;
+}
+.form-controls {
+  background-color: #fff;
+  display: flex;
+  margin: 0px auto;
+  justify-content: space-around;
+  align-items: center;
+  width: 1200px;
+  height: 120px;
+  padding: 0.5rem;
+  border-radius: 10px;
+  position: absolute;
+  top:  340px;
+  left: 150px;
+  border: 2px solid #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+label {
+  display: block;
+  font-size: 25px;
+}
+
+.eachforms {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 0.5rem;
+  border-radius: 10px;
+  position: relative;
+
+
+}
+
+#dropdown2 li{
+  cursor: pointer;
+  display: none;
+  text-decoration: none;
+  list-style: none;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: #000;
+  color: #fff;
+  
+}
+#dropdown2.price li{
+  display: block;
+}
+.price{
+  /* display: block; */
+  position:absolute;
+  top: 85px;
+  left: 360px;
+}
+.eachforms i{
+  margin-left: 10px;
+}
+
+.eachforms input {
+  padding: 0.5rem;
+  width: 200px;
+  border: none;
+  font-size: 18px;
+
+}
+.eachforms input:focus{
+  outline: none;
+ 
+}
+.bikehub{
+  background-color: #e9e9e9;
+ /* padding: 2rem; */
+ padding-top: 150px;
+
+  /* margin-top: 150px; */
+  /* margin-left: 50px; */
+/* display: grid;
+grid-template-columns: repeat(4,1fr);
+justify-content: center;
+align-items: center;
+grid-gap: 1rem; */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 1rem;
+
+}
+.bikes{
+ 
+  /* border: 2px solid #000;   */
+  border-radius: 20px;
+/* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+  width: 300px;
+  /* height: 500px; */
+  /* margin-left: 30px; */
+  
+
+  margin-bottom: 30px;
+  background-color: #fff;
+ 
+  
+}
+
+.bikes img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0 10px 80px;
+
+  width: 150px;
+  height: 110px;
+}
+.bikes h5{
+  text-align: center  ;
+  font-weight: 1200;
+  font-size: 23px;
+}
+.bikes h6,h1{
+  font-size: 16px;
+  color: #515151;
+  margin: 0px 0px 5px 20px;
+}
+.rtnbtn{
+  background-color: #000;
+  color: #fff;
+  font-family: cursive;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin: 0px 0px 5px 200px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s linear;
+}
+.rtnbtn:hover {
+  background-color:#fff;
+  color: #000;
+
+
+}
+
+.rtnbtn::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #f9f2f2;
+
+  z-index: -1;
+  transition: transform 0.5s;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+
+.rtnbtn::before {
+  transform: scalex(0);
+}
+
+
+
+.rtnbtn:hover::before {
+  transform: scalex(1);
+}
+.flexing {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #000;
+  /* justify-content: center;
+  align-items: center ; */
+  grid-gap: 0.5rem;
+  position: absolute;
+  color: #f9f2f2;
+  padding: 2rem;
+  margin-top: 90px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 54px 55px, rgba(0, 0, 0, 0.2) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.description {
+  margin-left: 80px;
+}
+
+.description img {
+  width: 200px;
+  height: 80px;
+
+}
+
+.description p {
+  margin: 10px;
+}
+
+.description .fas {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 1rem;
+  font-size: 20px;
+  margin-top: 30px;
+
+}
+
+.fas i {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  transition: all 0.8s linear;
+
+
+  /* margin-left: 30px; */
+}
+
+.fas i:hover {
+  color: #777474;
+  font-size: 25px;
+}
+
+.about {
+  margin-left: 90px;
+}
+
+.about h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.place {
+  margin-left: 60px;
+}
+
+.place h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.Vechile {
+  margin-left: 50px;
+}
+
+.Vechile h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+
+}
+.eachforms ul{
+  margin-top: 80px;
+}
+
+
+
+
+
+
